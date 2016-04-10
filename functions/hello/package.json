@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fate 'hello' AWS Lambda Service",
+  "author": "Thomas S. Bradford",
+  "license": "MIT",
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Thom Bradford",
+      "email": "thom@kode4food.it"
+    }
+  ],
+  "dependencies": {
+    "fatejs": "^0.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

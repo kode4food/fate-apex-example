@@ -1,0 +1,3 @@
+export def handle(event, context, callback)
+  "Error: event isn't matched to a handler" | callback
+end

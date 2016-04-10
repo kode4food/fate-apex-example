@@ -1,0 +1,10 @@
+
+{
+  "name": "TestApex",
+  "runtime": "nodejs4.3",
+  "description": "A Test of Apex Using Fate",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::110473610330:role/lambda_s3_exec_role",
+  "environment": {}
+}

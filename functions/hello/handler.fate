@@ -1,0 +1,11 @@
+from pattern import NonEmptyString
+from './lambda' import handle
+
+let Named = ~{
+  name: NonEmptyString,
+  age: self > 20
+}
+
+export def handle(Named as event, ctx, callback)
+  callback(null, { hello: event.name })
+end

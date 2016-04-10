@@ -1,0 +1,15 @@
+*.fate.js
+
+npm-debug.log
+node_modules
+coverage
+report
+
+.idea
+.settings
+.vscode
+*.iml
+*~
+
+*.sublime-workspace
+*.sublime-project
