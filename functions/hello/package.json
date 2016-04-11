@@ -13,7 +13,7 @@
     }
   ],
   "dependencies": {
-    "fatejs": "^0.5.7"
+    "fatejs": "^0.5.8"
   },
   "devDependencies": {},
   "scripts": {
