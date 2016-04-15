@@ -1,5 +1,6 @@
 from pattern import NonEmptyString
 from './lambda' import handle
+from './config' import config
 
 let Named = ~{
   name: NonEmptyString,
@@ -7,5 +8,8 @@ let Named = ~{
 }
 
 export def handle(Named as event, ctx, callback)
-  callback(null, { hello: event.name })
+  do when config
+    config | print
+    callback(null, { hello: event.name })
+  end
 end

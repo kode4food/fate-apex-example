@@ -1,0 +1,4 @@
+export let config = do
+  # get the configuration somehow, but for now
+  { "i am a config key": "and i am its value" }
+end
