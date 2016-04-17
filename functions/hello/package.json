@@ -13,9 +13,12 @@
     }
   ],
   "dependencies": {
-    "fatejs": "^0.5.8"
+    "fatejs": "^0.5.11",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.0",
+    "gulp-fatejs": "^1.0.4",
+    "gulp-rename": "^1.2.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
